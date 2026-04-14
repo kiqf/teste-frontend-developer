@@ -56,3 +56,23 @@ Deixar o formulário da landing page funcional, onde ao preencher as informaçõ
 ![Template da página a ser desenvolvida](https://github.com/Ellos-Design/teste-frontend-developer/blob/master/wireframe.png?raw=true)
 
 **Boa sorte! Use sua criatividade e mostre do que você é capaz.**
+
+## ▶️ Como rodar o projeto
+
+1. Clone o repositório
+
+git clone <https://github.com/kiqf/teste-frontend-developer.git>
+
+2. Acesse a pasta do projeto
+
+cd teste-frontend-developer
+
+3. Instale as dependências
+
+npm install
+
+4. Rode o SASS (opcional, para editar estilos)
+
+npm run sass
+
+5. Abra o arquivo index.html no navegador

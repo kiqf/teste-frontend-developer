@@ -1,0 +1,24 @@
+{
+  "name": "teste-frontend-developer",
+  "version": "1.0.0",
+  "description": "Teste para estágio Frontend e Full-Stack",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch style.scss:style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiqf/teste-frontend-developer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiqf/teste-frontend-developer/issues"
+  },
+  "homepage": "https://github.com/kiqf/teste-frontend-developer#readme",
+  "dependencies": {
+    "sass": "^1.99.0"
+  }
+}
