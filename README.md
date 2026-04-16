@@ -1,78 +1,152 @@
-# Teste para estágio Frontend e Full-Stack
+# 🚀 Teste Técnico - Landing Page Full Stack
 
-## Sobre a Ellos Design
+## 📌 Sobre o projeto
 
-A **Ellos Design** é uma agência de marketing e criação de sites localizada em Guarulhos / SP. Somos uma empresa em constante evolução e sempre estamos abertos para pessoas que gostem de tecnologia e queiram trabalhar na área, mas que principalmente queiram aprender e crescer com a nossa empresa.
+Este projeto consiste no desenvolvimento de uma landing page para uma agência fictícia de marketing digital focada em performance.
 
-## Sobre o teste
+A proposta é apresentar uma solução moderna capaz de atrair clientes, destacar benefícios e converter visitantes em leads, através de um formulário integrado com backend.
 
-Este é um teste prático que desenvolvemos para a avaliação dos candidatos participantes de nosso processo seletivo para vagas de Frontend ou Full-Stack.
+O projeto simula o ambiente real de uma agência que busca crescimento de clientes por meio de estratégias digitais, como criação de sites, tráfego pago e otimização de conversão.
 
-## Tecnologias para o desafio
+---
 
-Você deve utilizar as seguintes tecnologias para o desenvolvimento do teste:
+## 📸 Preview do projeto
 
-- HTML5
-- CSS
-- JavaScript ou jQuery
-- PHP (Para Full-Stack)
-- MySQL (Para Full-Stack)
+![Preview do projeto](./assets/images/preview.png)
 
-## O que nos impressionaria no teste
+---
 
-- Utilização de um pré-processador para o CSS (De preferência o Sass)
-- Aplicação de animações em CSS (Ex: Animações ao realizar scroll)
-- Ver o teste rodando em live (Bucket estático S3, Heroku, Firebase Hosting, etc)
-- Documentação do projeto (Com instruções para executar)
+## 🌐 Deploy
 
-## O que avaliaremos no seu teste
+Acesse o projeto online:
 
-- Criatividade
-- Organização do código
-- Performance do código
-- Boas práticas de desenvolvimento
-- Documentação do código
-- Adaptação mobile (layout responsivo)
-- Documentação do projeto (Com instruções para executar)
+👉 https://seu-link-deploy-aqui.com
 
-## Etapas para realização do teste
+---
 
-- Faça um [fork](https://github.com/Ellos-Design/teste-frontend-developer/fork) desse projeto em sua conta do GitHub
-- Realize o desafio proposto
-- Faça um push para seu repositório com o desafio implementado
-- Envie um email para (vagas@ellosdesign.com.br) com a URL do seu projeto avisando que você concluiu o teste
+## 🛠️ Tecnologias utilizadas
 
-## O desafio
+### Frontend
+- **HTML5** → estrutura da página  
+- **CSS3** → estilização da interface  
+- **SASS** → organização e escalabilidade dos estilos  
+- **JavaScript** → interações e envio dos dados do formulário  
 
-Você deverá desenvolver uma landing page seguindo a estrutura exibida na imagem abaixo. Você pode utilizar os textos e imagens de sua preferência para a criação da página.
+### Backend
+- **PHP** → processamento dos dados do formulário e integração com o banco  
 
-#### Full-Stack
+### Banco de dados
+- **MySQL** → armazenamento das informações enviadas pelos usuários  
 
-Deixar o formulário da landing page funcional, onde ao preencher as informações e clicar para enviar, o formulário será submetido e os dados deverão ser gravados em um banco de dados (Neste caso será necessário nos enviar o arquivo SQL para podermos implementar o banco para avaliação do teste).
+### Ferramentas
+- **NPM** → gerenciamento do SASS  
+- **Git/GitHub** → versionamento do projeto  
 
-> [!IMPORTANT]
-> Atenção: O mockup abaixo é apenas um esqueleto estrutural. Não queremos que você replique o design cinza e estático do modelo. Use sua criatividade para definir uma marca fictícia (ou real), escolher uma paleta de cores, tipografia e imagens que deem vida ao projeto. Sinta-se livre para adaptar o layout, desde que mantenha os elementos essenciais.
+---
 
-![Template da página a ser desenvolvida](https://github.com/Ellos-Design/teste-frontend-developer/blob/master/wireframe.png?raw=true)
+## 🧱 Estrutura do projeto
 
-**Boa sorte! Use sua criatividade e mostre do que você é capaz.**
+project/
+│
+├── index.html
+├── script.js
+├── style.css
+├── style.scss
+│
+├── style/
+│ ├── _variables.scss
+│ ├── _reset.scss
+│ ├── _layout.scss
+│ └── _components.scss
+│
+├── backend/
+│ ├── connection.php
+│ └── submit.php
+│
+├── database/
+│ └── schema.sql
+│
+└── assets/
+└── images/
+└── preview.png
+
+---
 
 ## ▶️ Como rodar o projeto
 
-1. Clone o repositório
+### 1. Clone o repositório
 
-git clone <https://github.com/kiqf/teste-frontend-developer.git>
+git clone <url-do-repositorio>
 
-2. Acesse a pasta do projeto
 
-cd teste-frontend-developer
+---
 
-3. Instale as dependências
+### 2. Acesse a pasta do projeto
+
+cd nome-do-projeto
+
+---
+
+### 3. Instale as dependências (SASS)
 
 npm install
 
-4. Rode o SASS (opcional, para editar estilos)
+
+---
+
+### 4. Rode o SASS (opcional)
+
 
 npm run sass
 
-5. Abra o arquivo index.html no navegador
+
+---
+
+### 5. Configure o ambiente PHP
+
+- Instale o XAMPP ou Laragon  
+- Mova o projeto para a pasta `htdocs`  
+
+---
+
+### 6. Inicie o servidor
+
+- Apache  
+- MySQL  
+
+---
+
+### 7. Acesse no navegador
+
+
+http://localhost/...
+
+
+---
+
+## 🗄️ Banco de dados
+
+- `schema.sql` → estrutura do banco
+- `nexa_growth.sql` → dump completo com dados de teste
+
+---
+
+## 💡 Funcionalidades
+
+- Landing page moderna e responsiva  
+- Seções estratégicas focadas em conversão  
+- Formulário de captura de leads  
+- Integração com backend em PHP  
+- Armazenamento de dados no MySQL  
+
+---
+
+## 📎 Observações
+
+Projeto desenvolvido como parte de um teste técnico para vaga de estágio, com foco em demonstrar habilidades em desenvolvimento full stack e organização de código.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por Kaique

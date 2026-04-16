@@ -280,6 +280,19 @@ textarea {
   backdrop-filter: blur(18px);
 }
 
+#lead-form-status {
+  margin-top: 10px;
+  font-size: 14px;
+
+  &[data-tone="success"] {
+    color: #22c55e;
+  }
+
+  &[data-tone="error"] {
+    color: #ef4444;
+  }
+}
+
 .lead-form {
   display: grid;
   gap: 0.95rem;
@@ -290,6 +303,32 @@ textarea {
     margin: 0 0 0.35rem;
     font-family: "Space Grotesk", "Manrope", sans-serif;
     font-size: 1.45rem;
+  }
+
+  &__intro {
+    margin: 0 0 0.35rem;
+    color: $text-secondary;
+    line-height: 1.6;
+  }
+
+  &__status {
+    padding: 0.95rem 1rem;
+    border-radius: $radius-sm;
+    border: 1px solid transparent;
+    font-size: 0.95rem;
+    line-height: 1.5;
+
+    &[data-tone="success"] {
+      border-color: rgba(34, 197, 94, 0.28);
+      background: rgba(34, 197, 94, 0.14);
+      color: #bbf7d0;
+    }
+
+    &[data-tone="error"] {
+      border-color: rgba(248, 113, 113, 0.26);
+      background: rgba(127, 29, 29, 0.28);
+      color: #fecaca;
+    }
   }
 
   input,
