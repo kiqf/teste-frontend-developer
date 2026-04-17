@@ -1,0 +1,30 @@
+services:
+  web:
+    volumes:
+      - ./app:/var/www/html/app
+      - ./public:/var/www/html/public
+      - ./database:/var/www/html/database
+
+  sass:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.sass
+    working_dir: /workspace
+    command:
+      - ./node_modules/.bin/sass
+      - --watch
+      - --poll
+      - resources/styles/main.scss:public/assets/css/style.css
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./resources:/workspace/resources
+      - ./public:/workspace/public
+      - ./package.json:/workspace/package.json:ro
+      - ./package-lock.json:/workspace/package-lock.json:ro
+      - sass_node_modules:/workspace/node_modules
+
+volumes:
+  sass_node_modules:

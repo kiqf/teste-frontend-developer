@@ -5,7 +5,7 @@
   "main": "public/assets/js/main.js",
   "scripts": {
     "build:css": "sass resources/styles/main.scss public/assets/css/style.css",
-    "sass": "sass --watch resources/styles/main.scss:public/assets/css/style.css"
+    "sass": "sass --watch --poll resources/styles/main.scss:public/assets/css/style.css"
   },
   "repository": {
     "type": "git",
