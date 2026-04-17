@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: teste-frontend-developer
+    env: docker
+    branch: main
+    plan: free
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: DB_DRIVER
+        value: pgsql
+
+databases:
+  - type: postgresql
+    name: teste-frontend-developer-db
+    plan: free
+    databaseName: nexa_growth

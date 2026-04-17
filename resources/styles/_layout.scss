@@ -1,0 +1,27 @@
+.hero__top,
+.hero__content,
+.about .container,
+.final-cta__content,
+.site-footer .container {
+  display: grid;
+}
+
+.hero__top {
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 3.5rem;
+}
+
+.hero__content {
+  grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.9fr) minmax(300px, 0.92fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+main section,
+.final-cta,
+.site-footer {
+  padding: 5rem 0;
+}

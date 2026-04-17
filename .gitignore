@@ -1,3 +1,5 @@
 node_modules/
 style.css.map
+public/assets/css/style.css.map
 .env
+.codex

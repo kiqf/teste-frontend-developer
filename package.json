@@ -2,10 +2,10 @@
   "name": "teste-frontend-developer",
   "version": "1.0.0",
   "description": "Teste para estágio Frontend e Full-Stack",
-  "main": "script.js",
+  "main": "public/assets/js/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch style.scss:style.css"
+    "build:css": "sass resources/styles/main.scss public/assets/css/style.css",
+    "sass": "sass --watch resources/styles/main.scss:public/assets/css/style.css"
   },
   "repository": {
     "type": "git",

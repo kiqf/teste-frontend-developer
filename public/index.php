@@ -10,7 +10,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -47,7 +47,7 @@
         </div>
 
         <aside class="hero__form-wrapper" aria-label="Formulario de contato">
-          <form class="lead-form" id="lead-form" action="backend/submit.php" method="post">
+          <form class="lead-form" id="lead-form" action="submit.php" method="post">
             <h2>Chamada para acao</h2>
             <p class="lead-form__intro">Preencha seus dados e nossa equipe entra em contato com voce.</p>
             <div class="lead-form__status" id="lead-form-status" aria-live="polite" hidden></div>
@@ -231,7 +231,7 @@
       <p>Desenvolvido por Kaique Araujo - 11 99715-7589</p>
     </div>
   </footer>
-  <script src="script.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-require_once 'connection.php';
+require_once __DIR__ . '/../app/Support/database.php';
 
 try {
     if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
@@ -39,7 +39,7 @@ try {
         ':mensagem' => $mensagem,
     ]);
 
-    header('Location: /teste-frontend-developer/?status=sucesso');
+    header('Location: /?status=sucesso');
     exit;
 
 } catch (Throwable $e) {
