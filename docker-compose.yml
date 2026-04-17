@@ -4,17 +4,14 @@ services:
     ports:
       - '8080:80'
     environment:
-      DB_DRIVER: pgsql
-      DB_HOST: db
-      DB_PORT: '5432'
-      DB_NAME: nexa_growth
-      DB_USER: postgres
-      DB_PASS: postgres
-    depends_on:
-      - db
+      DB_DRIVER: sqlite
+      DB_DATABASE: database/app.sqlite
+    volumes:
+      - ./database:/var/www/html/database
 
   db:
     image: postgres:15
+    profiles: ["postgres"]
     restart: unless-stopped
     environment:
       POSTGRES_DB: nexa_growth

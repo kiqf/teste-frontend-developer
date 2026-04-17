@@ -43,6 +43,13 @@ try {
     exit;
 
 } catch (Throwable $e) {
+    error_log(sprintf(
+        'Lead submit failed: %s in %s:%d',
+        $e->getMessage(),
+        $e->getFile(),
+        $e->getLine()
+    ));
+
     header('Location: /?status=erro-servidor');
     exit;
 }
