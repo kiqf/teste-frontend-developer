@@ -42,10 +42,6 @@
           </ul>
         </section>
 
-        <div class="hero__visual">
-          <img src="assets/images/hero.png" alt="Ilustração representando crescimento digital e performance">
-        </div>
-
         <aside class="hero__form-wrapper" aria-label="Formulario de contato">
           <form class="lead-form" id="lead-form" action="submit.php" method="post">
             <h2>Chamada para acao</h2>
@@ -75,16 +71,22 @@
   <main>
     <section class="about" aria-labelledby="quem-somos-titulo">
       <div class="container">
-        <div class="about__content">
-          <h2 id="quem-somos-titulo">Quem Somos</h2>
-          <p>
-            Somos uma agência de marketing digital especializada em performance e crescimento. Nosso foco é ajudar
-            empresas a aumentarem suas vendas através de estratégias inteligentes, baseadas em dados e resultados reais.
-          </p>
-          <p>
-            Trabalhamos com criação de sites, tráfego pago e otimização de conversão, sempre buscando entregar soluções
-            personalizadas para cada cliente. Mais do que presença digital, nós entregamos crescimento.
-          </p>
+        <div class="about__main">
+          <div class="about__visual">
+            <img src="assets/images/hero.png" alt="Ilustração representando crescimento digital e performance">
+          </div>
+
+          <div class="about__content">
+            <h2 id="quem-somos-titulo">Quem Somos</h2>
+            <p>
+              Somos uma agência de marketing digital especializada em performance e crescimento. Nosso foco é ajudar
+              empresas a aumentarem suas vendas através de estratégias inteligentes, baseadas em dados e resultados reais.
+            </p>
+            <p>
+              Trabalhamos com criação de sites, tráfego pago e otimização de conversão, sempre buscando entregar soluções
+              personalizadas para cada cliente. Mais do que presença digital, nós entregamos crescimento.
+            </p>
+          </div>
         </div>
 
         <div class="about__stats" aria-label="Indicadores da operação">
@@ -217,7 +219,8 @@
             Pare de depender apenas de indicações e comece a atrair clientes todos os dias com estratégias digitais
             eficientes. Nós cuidamos de todo o processo para que você foque no crescimento do seu negócio.
           </p>
-          <a href="#topo">Quero aumentar minhas vendas</a>
+          <a href="https://wa.me/5511997157589?text=Ol%C3%A1%2C%20quero%20aumentar%20minhas%20vendas.%20Pode%20me%20ajudar%3F"
+            target="_blank" rel="noopener noreferrer">Quero aumentar minhas vendas</a>
           <small>Fale com um especialista agora mesmo e descubra como podemos aumentar seus resultados no
             digital.</small>
         </div>

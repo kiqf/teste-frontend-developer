@@ -94,7 +94,26 @@
   }
 }
 
-.hero__visual {
+.hero__form-wrapper {
+  position: relative;
+}
+
+.about {
+  padding-bottom: $section-space-tight;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 1) 0%, rgba(17, 24, 39, 1) 100%);
+
+  .container {
+    gap: 2rem;
+  }
+}
+
+.about__main {
+  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.about__visual {
   position: relative;
 
   img {
@@ -103,21 +122,14 @@
   }
 }
 
-.hero__form-wrapper {
-  position: relative;
-}
-
-.about {
-  background: linear-gradient(180deg, rgba(15, 23, 42, 1) 0%, rgba(17, 24, 39, 1) 100%);
-
-  .container {
-    grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
-    gap: 2rem;
-    align-items: start;
-  }
+.about__stats {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
 }
 
 .about__content {
+  max-width: 42rem;
+
   h2,
   p {
     margin-top: 0;
@@ -137,6 +149,7 @@
 }
 
 .benefits {
+  padding-top: $section-space-tight;
   background:
     radial-gradient(circle at top right, rgba(37, 99, 235, 0.12), transparent 26%),
     $bg-light;
@@ -153,6 +166,7 @@
 }
 
 .faq {
+  padding-top: $section-space-tight;
   background: $bg-dark;
 
   h2 {
@@ -163,6 +177,7 @@
 }
 
 .final-cta {
+  padding-top: $section-space-tight;
   background:
     radial-gradient(circle at center, rgba(59, 130, 246, 0.16), transparent 24%),
     $bg-light;

@@ -1,0 +1,7 @@
+@use "tokens" as *;
+
+@mixin down($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
