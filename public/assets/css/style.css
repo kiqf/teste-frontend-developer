@@ -61,8 +61,6 @@ textarea {
   grid-template-columns: auto auto;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: 3.5rem;
 }
 
 .hero__content {
@@ -83,8 +81,7 @@ main section,
 }
 
 .hero__logo {
-  width: 196px;
-  height: auto;
+  width: 260px;
 }
 
 .hero__phone {
@@ -437,9 +434,10 @@ main section,
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 2rem 0 5rem;
+  padding: 0.5rem 0 5rem;
   background: radial-gradient(circle at top center, rgba(59, 130, 246, 0.18), transparent 24%), linear-gradient(180deg, rgba(17, 24, 39, 0.2) 0%, rgba(15, 23, 42, 0.96) 100%), #0f172a;
 }
+
 .hero::after {
   content: "";
   position: absolute;
