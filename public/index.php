@@ -16,7 +16,7 @@
 
 <body>
   <header class="hero">
-    <div class="container">git status
+    <div class="container">
       <div class="hero__top">
         <a class="hero__brand" href="#topo" aria-label="Pagina inicial">
           <img class="hero__logo" src="assets/images/logo.png" alt="Logotipo da marca">
