@@ -32,8 +32,8 @@
             que atraem, convertem e escalam o seu negócio no digital.
           </p>
           <div class="hero__actions">
-            <a class="hero__cta hero__cta--primary" href="#contato-final">Quero atrair mais clientes</a>
-            <a class="hero__cta hero__cta--secondary" href="#quem-somos-titulo">Conhecer a agência</a>
+            <a class="hero__cta hero__cta--primary shake-horizontal" href="#contato-final">Quero atrair mais clientes</a>
+            <a class="hero__cta hero__cta--secondary shake-horizontal" href="#quem-somos-titulo">Conhecer a agência</a>
           </div>
           <ul class="hero__highlights" aria-label="Principais diferenciais">
             <li>Sites otimizados para conversão</li>
@@ -44,7 +44,7 @@
 
         <aside class="hero__form-wrapper" aria-label="Formulario de contato">
           <form class="lead-form" id="lead-form" action="submit.php" method="post">
-            <h2>Chamada para acao</h2>
+            <h2>Fale com um especialista e comece a crescer</h2>
             <p class="lead-form__intro">Preencha seus dados e nossa equipe entra em contato com voce.</p>
             <div class="lead-form__status" id="lead-form-status" aria-live="polite" hidden></div>
 
@@ -61,7 +61,7 @@
             <textarea id="mensagem" name="mensagem" placeholder="COMO PODEMOS TE AJUDAR?" rows="4"
               maxlength="1000"></textarea>
 
-            <button type="submit">Enviar</button>
+            <button class="shake-horizontal" type="submit">Enviar</button>
           </form>
         </aside>
       </div>
@@ -73,7 +73,8 @@
       <div class="container">
         <div class="about__main">
           <div class="about__visual">
-            <img src="assets/images/hero.png" alt="Ilustração representando crescimento digital e performance">
+            <img data-scroll-animation="slide-in-left" src="assets/images/hero.png"
+              alt="Ilustração representando crescimento digital e performance">
           </div>
 
           <div class="about__content">
@@ -111,7 +112,7 @@
         <h2 id="beneficios-titulo">Com este servico voce:</h2>
 
         <div class="benefits__grid">
-          <article class="benefit-card">
+          <article class="benefit-card" data-scroll-animation="tracking-in-expand">
             <h3>Mais clientes todos os dias</h3>
             <p>
               Atraia pessoas realmente interessadas no seu produto ou serviço através de estratégias digitais eficientes
@@ -119,7 +120,7 @@
             </p>
           </article>
 
-          <article class="benefit-card">
+          <article class="benefit-card" data-scroll-animation="tracking-in-expand">
             <h3>Aumento nas vendas</h3>
             <p>
               Transforme visitantes em clientes com páginas otimizadas e campanhas focadas em conversão e resultados
@@ -127,14 +128,14 @@
             </p>
           </article>
 
-          <article class="benefit-card">
+          <article class="benefit-card" data-scroll-animation="tracking-in-expand">
             <h3>Presença digital profissional</h3>
             <p>
               Tenha um site moderno, rápido e preparado para transmitir confiança e credibilidade para seus clientes.
             </p>
           </article>
 
-          <article class="benefit-card">
+          <article class="benefit-card" data-scroll-animation="tracking-in-expand">
             <h3>Estratégias baseadas em dados</h3>
             <p>
               Todas as decisões são tomadas com base em dados reais, garantindo mais eficiência e melhores resultados
@@ -142,14 +143,14 @@
             </p>
           </article>
 
-          <article class="benefit-card">
+          <article class="benefit-card" data-scroll-animation="tracking-in-expand">
             <h3>Mais previsibilidade no crescimento</h3>
             <p>
               Tenha controle sobre seus resultados e consiga planejar o crescimento do seu negócio com mais segurança.
             </p>
           </article>
 
-          <article class="benefit-card">
+          <article class="benefit-card" data-scroll-animation="tracking-in-expand">
             <h3>Foco total no seu negócio</h3>
             <p>
               Enquanto cuidamos do marketing, você pode focar no que realmente importa: atender seus clientes e expandir
@@ -159,7 +160,7 @@
         </div>
 
         <div class="benefits__cta">
-          <a href="#contato-final">Quero atrair mais clientes</a>
+          <a class="shake-horizontal" href="#contato-final">Quero atrair mais clientes</a>
         </div>
       </div>
     </section>
@@ -219,7 +220,8 @@
             Pare de depender apenas de indicações e comece a atrair clientes todos os dias com estratégias digitais
             eficientes. Nós cuidamos de todo o processo para que você foque no crescimento do seu negócio.
           </p>
-          <a href="https://wa.me/5511997157589?text=Ol%C3%A1%2C%20quero%20aumentar%20minhas%20vendas.%20Pode%20me%20ajudar%3F"
+          <a class="shake-horizontal"
+            href="https://wa.me/5511997157589?text=Ol%C3%A1%2C%20quero%20aumentar%20minhas%20vendas.%20Pode%20me%20ajudar%3F"
             target="_blank" rel="noopener noreferrer">Quero aumentar minhas vendas</a>
           <small>Fale com um especialista agora mesmo e descubra como podemos aumentar seus resultados no
             digital.</small>
